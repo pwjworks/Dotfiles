@@ -6,7 +6,11 @@
 
 - link:
     ~/.tmux.conf: tmux.conf
+    ~/my-posh-theme.json: my-posh-theme.json
+    ~/.config/nvim: nvim
     
+- create:
+  - ~/Projects
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

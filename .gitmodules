@@ -1,6 +1,3 @@
-[submodule "nvim"]
-	path = nvim
-	url = git@github.com:pwjworks/neovim-config.git
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
