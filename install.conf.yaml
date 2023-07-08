@@ -8,6 +8,7 @@
     ~/.tmux.conf: tmux.conf
     ~/my-posh-theme.json: my-posh-theme.json
     ~/.config/nvim: nvim
+    ~/.config/nvim/lua/custom: custom
     
 - create:
   - ~/Projects
