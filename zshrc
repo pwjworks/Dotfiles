@@ -31,7 +31,6 @@ alias lg=lazygit
 alias clang++=clang++-15
 alias clang=clang-15
 alias ls=logo-ls
-alias j=autojump
 # source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
