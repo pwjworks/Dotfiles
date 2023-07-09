@@ -26,7 +26,7 @@
     quiet: false
 
   - 
-    command: bash scripts/install_neovim.sh
+    command: bash scripts/install_shell.sh
     stdin: true
     stdout: true
     quiet: false
