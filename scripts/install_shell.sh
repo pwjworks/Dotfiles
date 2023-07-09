@@ -8,5 +8,5 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/plug
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
 
 # oh-my-posh
-curl -s https://ohmyposh.dev/install.sh | sudo zsh -s
+curl -s https://ohmyposh.dev/install.sh | sudo bash -s
 
