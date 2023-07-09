@@ -10,8 +10,6 @@ sudo apt-get install -y\
     ripgrep \
     libfuse2
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 bash install_neovim.sh
 bash install_shell.sh
 
