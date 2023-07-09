@@ -16,11 +16,3 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - 
-    command: bash scripts/init.sh
-    stdout: true
-    quiet: false
-  - 
-    command: bash scripts/install_neovim.sh
-    stdout: true
-    quiet: false
