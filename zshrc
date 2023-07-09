@@ -23,7 +23,7 @@ plugins=(git
     zsh-syntax-highlighting
     extract
   )
-
+export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 source ~/.oh-my-zsh/oh-my-zsh.sh
 
 alias vim=nvim

@@ -4,3 +4,5 @@ sudo dpkg -i logo-ls_amd64.deb
 
 brew install autojump cmake xmake fzf nodejs lazygit docker fzf lf neovim
 
+
+
