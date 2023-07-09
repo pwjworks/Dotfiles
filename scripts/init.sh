@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo apt-get update
-sudo apt-get install -y\
+apt-get update
+apt-get install -y\
     ca-certificates \
     curl \
     gnupg \
@@ -9,4 +9,3 @@ sudo apt-get install -y\
     fd-find \
     ripgrep \
     libfuse2
-
