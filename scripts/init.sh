@@ -10,6 +10,6 @@ sudo apt-get install -y\
     ripgrep \
     libfuse2
 
-./install_neovim.sh
-./install_shell.sh
+bash ./install_neovim.sh
+bash ./install_shell.sh
 
