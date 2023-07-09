@@ -8,4 +8,7 @@ sudo apt-get install -y\
     wget \
     fd-find \
     ripgrep \
-    libfuse2
+    libfuse2 \
+    gcc \
+    build-essential \
+    python3
