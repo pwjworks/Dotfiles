@@ -1,6 +1,0 @@
-[submodule "nvim"]
-	path = nvim
-	url = https://github.com/NvChad/NvChad
-[submodule "custom"]
-	path = custom
-	url = https://github.com/pwjworks/MyNvchad.git
