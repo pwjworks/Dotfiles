@@ -9,8 +9,6 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
-export CMAKE="$HOME/cmake-3.25.3-linux-x86_64/bin"
 export EDITOR="nvim"
 export VISUAL="nvim"
 
@@ -33,27 +31,12 @@ alias lg=lazygit
 alias clang++=clang++-15
 alias clang=clang-15
 alias ls=logo-ls
-export PATH=$PATH:$CMAKE
-export PATH=$PATH:/usr/local/go/bin
+alias j=autojump
 # source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && source ~/.autojump/etc/profile.d/autojump.sh
-autoload -U compinit && compinit -u
 
+[ -f /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh ] && . /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh
 
-
-# >>> xmake >>>
-[[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
-# <<< xmake <<<
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# oh-my-posh
-eval "$(oh-my-posh init zsh --config ~/my-posh-theme.json)"
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
