@@ -2,6 +2,15 @@
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
+#logo-ls
+wget https://github.com/Yash-Handa/logo-ls/releases/download/v1.3.7/logo-ls_amd64.deb
+sudo dpkg -i logo-ls_amd64.deb
+
+# lf
+wget https://github.com/gokcehan/lf/releases/download/r30/lf-linux-amd64.tar.gz
+extract lf-linux-amd64.tar.gz
+sudo mv lf /usr/bin/lf
+
 # autojump
 git clone https://github.com/wting/autojump.git ~/autojump
 ~/autojump/install.py
